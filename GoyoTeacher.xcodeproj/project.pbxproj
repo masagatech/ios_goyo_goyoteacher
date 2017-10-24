@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84EF1BE81F9F7B3000C43211 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EF1BE71F9F7B3000C43211 /* AppDelegate.swift */; };
+		84EF1BEA1F9F7B3000C43211 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EF1BE91F9F7B3000C43211 /* ViewController.swift */; };
+		84EF1BED1F9F7B3000C43211 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EF1BEB1F9F7B3000C43211 /* Main.storyboard */; };
+		84EF1BEF1F9F7B3000C43211 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84EF1BEE1F9F7B3000C43211 /* Assets.xcassets */; };
+		84EF1BF21F9F7B3000C43211 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EF1BF01F9F7B3000C43211 /* LaunchScreen.storyboard */; };
+		84EF1BFD1F9F7B3000C43211 /* GoyoTeacherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EF1BFC1F9F7B3000C43211 /* GoyoTeacherTests.swift */; };
+		84EF1C081F9F7B3000C43211 /* GoyoTeacherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EF1C071F9F7B3000C43211 /* GoyoTeacherUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84EF1BF91F9F7B3000C43211 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84EF1BDC1F9F7B3000C43211 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84EF1BE31F9F7B3000C43211;
+			remoteInfo = GoyoTeacher;
+		};
+		84EF1C041F9F7B3000C43211 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84EF1BDC1F9F7B3000C43211 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84EF1BE31F9F7B3000C43211;
+			remoteInfo = GoyoTeacher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84EF1BE41F9F7B3000C43211 /* GoyoTeacher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoyoTeacher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84EF1BE71F9F7B3000C43211 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84EF1BE91F9F7B3000C43211 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84EF1BEC1F9F7B3000C43211 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84EF1BEE1F9F7B3000C43211 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84EF1BF11F9F7B3000C43211 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84EF1BF31F9F7B3000C43211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84EF1BF81F9F7B3000C43211 /* GoyoTeacherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoyoTeacherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84EF1BFC1F9F7B3000C43211 /* GoyoTeacherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoyoTeacherTests.swift; sourceTree = "<group>"; };
+		84EF1BFE1F9F7B3000C43211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84EF1C031F9F7B3000C43211 /* GoyoTeacherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoyoTeacherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84EF1C071F9F7B3000C43211 /* GoyoTeacherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoyoTeacherUITests.swift; sourceTree = "<group>"; };
+		84EF1C091F9F7B3000C43211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84EF1BE11F9F7B3000C43211 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EF1BF51F9F7B3000C43211 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EF1C001F9F7B3000C43211 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84EF1BDB1F9F7B3000C43211 = {
+			isa = PBXGroup;
+			children = (
+				84EF1BE61F9F7B3000C43211 /* GoyoTeacher */,
+				84EF1BFB1F9F7B3000C43211 /* GoyoTeacherTests */,
+				84EF1C061F9F7B3000C43211 /* GoyoTeacherUITests */,
+				84EF1BE51F9F7B3000C43211 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84EF1BE51F9F7B3000C43211 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84EF1BE41F9F7B3000C43211 /* GoyoTeacher.app */,
+				84EF1BF81F9F7B3000C43211 /* GoyoTeacherTests.xctest */,
+				84EF1C031F9F7B3000C43211 /* GoyoTeacherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84EF1BE61F9F7B3000C43211 /* GoyoTeacher */ = {
+			isa = PBXGroup;
+			children = (
+				84EF1BE71F9F7B3000C43211 /* AppDelegate.swift */,
+				84EF1BE91F9F7B3000C43211 /* ViewController.swift */,
+				84EF1BEB1F9F7B3000C43211 /* Main.storyboard */,
+				84EF1BEE1F9F7B3000C43211 /* Assets.xcassets */,
+				84EF1BF01F9F7B3000C43211 /* LaunchScreen.storyboard */,
+				84EF1BF31F9F7B3000C43211 /* Info.plist */,
+			);
+			path = GoyoTeacher;
+			sourceTree = "<group>";
+		};
+		84EF1BFB1F9F7B3000C43211 /* GoyoTeacherTests */ = {
+			isa = PBXGroup;
+			children = (
+				84EF1BFC1F9F7B3000C43211 /* GoyoTeacherTests.swift */,
+				84EF1BFE1F9F7B3000C43211 /* Info.plist */,
+			);
+			path = GoyoTeacherTests;
+			sourceTree = "<group>";
+		};
+		84EF1C061F9F7B3000C43211 /* GoyoTeacherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84EF1C071F9F7B3000C43211 /* GoyoTeacherUITests.swift */,
+				84EF1C091F9F7B3000C43211 /* Info.plist */,
+			);
+			path = GoyoTeacherUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84EF1BE31F9F7B3000C43211 /* GoyoTeacher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84EF1C0C1F9F7B3000C43211 /* Build configuration list for PBXNativeTarget "GoyoTeacher" */;
+			buildPhases = (
+				84EF1BE01F9F7B3000C43211 /* Sources */,
+				84EF1BE11F9F7B3000C43211 /* Frameworks */,
+				84EF1BE21F9F7B3000C43211 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoyoTeacher;
+			productName = GoyoTeacher;
+			productReference = 84EF1BE41F9F7B3000C43211 /* GoyoTeacher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84EF1BF71F9F7B3000C43211 /* GoyoTeacherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84EF1C0F1F9F7B3000C43211 /* Build configuration list for PBXNativeTarget "GoyoTeacherTests" */;
+			buildPhases = (
+				84EF1BF41F9F7B3000C43211 /* Sources */,
+				84EF1BF51F9F7B3000C43211 /* Frameworks */,
+				84EF1BF61F9F7B3000C43211 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84EF1BFA1F9F7B3000C43211 /* PBXTargetDependency */,
+			);
+			name = GoyoTeacherTests;
+			productName = GoyoTeacherTests;
+			productReference = 84EF1BF81F9F7B3000C43211 /* GoyoTeacherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84EF1C021F9F7B3000C43211 /* GoyoTeacherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84EF1C121F9F7B3000C43211 /* Build configuration list for PBXNativeTarget "GoyoTeacherUITests" */;
+			buildPhases = (
+				84EF1BFF1F9F7B3000C43211 /* Sources */,
+				84EF1C001F9F7B3000C43211 /* Frameworks */,
+				84EF1C011F9F7B3000C43211 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84EF1C051F9F7B3000C43211 /* PBXTargetDependency */,
+			);
+			name = GoyoTeacherUITests;
+			productName = GoyoTeacherUITests;
+			productReference = 84EF1C031F9F7B3000C43211 /* GoyoTeacherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84EF1BDC1F9F7B3000C43211 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Goyo Tech Pvt Ltd";
+				TargetAttributes = {
+					84EF1BE31F9F7B3000C43211 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					84EF1BF71F9F7B3000C43211 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84EF1BE31F9F7B3000C43211;
+					};
+					84EF1C021F9F7B3000C43211 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84EF1BE31F9F7B3000C43211;
+					};
+				};
+			};
+			buildConfigurationList = 84EF1BDF1F9F7B3000C43211 /* Build configuration list for PBXProject "GoyoTeacher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84EF1BDB1F9F7B3000C43211;
+			productRefGroup = 84EF1BE51F9F7B3000C43211 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84EF1BE31F9F7B3000C43211 /* GoyoTeacher */,
+				84EF1BF71F9F7B3000C43211 /* GoyoTeacherTests */,
+				84EF1C021F9F7B3000C43211 /* GoyoTeacherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84EF1BE21F9F7B3000C43211 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EF1BF21F9F7B3000C43211 /* LaunchScreen.storyboard in Resources */,
+				84EF1BEF1F9F7B3000C43211 /* Assets.xcassets in Resources */,
+				84EF1BED1F9F7B3000C43211 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EF1BF61F9F7B3000C43211 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EF1C011F9F7B3000C43211 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84EF1BE01F9F7B3000C43211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EF1BEA1F9F7B3000C43211 /* ViewController.swift in Sources */,
+				84EF1BE81F9F7B3000C43211 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EF1BF41F9F7B3000C43211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EF1BFD1F9F7B3000C43211 /* GoyoTeacherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EF1BFF1F9F7B3000C43211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EF1C081F9F7B3000C43211 /* GoyoTeacherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84EF1BFA1F9F7B3000C43211 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84EF1BE31F9F7B3000C43211 /* GoyoTeacher */;
+			targetProxy = 84EF1BF91F9F7B3000C43211 /* PBXContainerItemProxy */;
+		};
+		84EF1C051F9F7B3000C43211 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84EF1BE31F9F7B3000C43211 /* GoyoTeacher */;
+			targetProxy = 84EF1C041F9F7B3000C43211 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84EF1BEB1F9F7B3000C43211 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84EF1BEC1F9F7B3000C43211 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84EF1BF01F9F7B3000C43211 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84EF1BF11F9F7B3000C43211 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84EF1C0A1F9F7B3000C43211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84EF1C0B1F9F7B3000C43211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84EF1C0D1F9F7B3000C43211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoyoTeacher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goyo.GoyoTeacher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		84EF1C0E1F9F7B3000C43211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoyoTeacher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goyo.GoyoTeacher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		84EF1C101F9F7B3000C43211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoyoTeacherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goyo.GoyoTeacherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoyoTeacher.app/GoyoTeacher";
+			};
+			name = Debug;
+		};
+		84EF1C111F9F7B3000C43211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoyoTeacherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goyo.GoyoTeacherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoyoTeacher.app/GoyoTeacher";
+			};
+			name = Release;
+		};
+		84EF1C131F9F7B3000C43211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GoyoTeacherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goyo.GoyoTeacherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GoyoTeacher;
+			};
+			name = Debug;
+		};
+		84EF1C141F9F7B3000C43211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GoyoTeacherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goyo.GoyoTeacherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GoyoTeacher;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84EF1BDF1F9F7B3000C43211 /* Build configuration list for PBXProject "GoyoTeacher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EF1C0A1F9F7B3000C43211 /* Debug */,
+				84EF1C0B1F9F7B3000C43211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84EF1C0C1F9F7B3000C43211 /* Build configuration list for PBXNativeTarget "GoyoTeacher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EF1C0D1F9F7B3000C43211 /* Debug */,
+				84EF1C0E1F9F7B3000C43211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84EF1C0F1F9F7B3000C43211 /* Build configuration list for PBXNativeTarget "GoyoTeacherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EF1C101F9F7B3000C43211 /* Debug */,
+				84EF1C111F9F7B3000C43211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84EF1C121F9F7B3000C43211 /* Build configuration list for PBXNativeTarget "GoyoTeacherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EF1C131F9F7B3000C43211 /* Debug */,
+				84EF1C141F9F7B3000C43211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84EF1BDC1F9F7B3000C43211 /* Project object */;
+}
