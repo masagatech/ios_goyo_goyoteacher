@@ -1,7 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,12 +21,45 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="teacher_bg" translatesAutoresizingMaskIntoConstraints="NO" id="sAz-UH-3I9">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="719"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3rb-y1-amF">
+                                <rect key="frame" x="35" y="135" width="304" height="397"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="goyologo" translatesAutoresizingMaskIntoConstraints="NO" id="g9x-fF-ygz">
+                                <rect key="frame" x="97" y="243.5" width="180" height="180"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="180" id="1HB-EO-zll"/>
+                                    <constraint firstAttribute="width" constant="180" id="J50-es-8vH"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3rb-y1-amF" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="058-Sm-w99"/>
+                            <constraint firstItem="g9x-fF-ygz" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="4KJ-24-x4d"/>
+                            <constraint firstItem="3rb-y1-amF" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="19" id="6OO-zc-6V3"/>
+                            <constraint firstItem="sAz-UH-3I9" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="FCi-Jm-AY3"/>
+                            <constraint firstAttribute="trailing" secondItem="sAz-UH-3I9" secondAttribute="trailing" id="KIp-E8-Aby"/>
+                            <constraint firstItem="sAz-UH-3I9" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Pku-Mc-d1w"/>
+                            <constraint firstItem="3rb-y1-amF" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="115" id="V4I-fa-9Rx"/>
+                            <constraint firstItem="3rb-y1-amF" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="gaE-E6-Vvr"/>
+                            <constraint firstAttribute="bottom" secondItem="sAz-UH-3I9" secondAttribute="bottom" constant="-52" id="sBx-Up-dnL"/>
+                            <constraint firstItem="g9x-fF-ygz" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="ub2-7O-OYk"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="goyologo" width="500" height="345"/>
+        <image name="teacher_bg" width="228" height="323"/>
+    </resources>
 </document>
